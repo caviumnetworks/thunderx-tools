@@ -3,11 +3,19 @@
 
 ## Installation
 
+1. Download and unpack
+
 ```
 git clone git@github.com:caviumnetworks/thunderx-tools.git
 cd thunderx-tools/thunderx-tools-421/
 sh ./unpack.sh
-```
+``
 
+2. Add aarch64-thunderx-linux-gnu-gcc to system path
+
+```
+THUNDERX_TOOLS=/path/to/thunderx-tools-421
+PATH=${THUNDERX_TOOLS}/bin:${THUNDERX_TOOLS}/usr/bin:$PATH
+```
 
 
