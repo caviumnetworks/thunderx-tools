@@ -6,7 +6,7 @@
 Download and unpack
 
 ```
-git clone git@github.com:caviumnetworks/thunderx-tools.git
+git clone https://github.com/caviumnetworks/thunderx-tools.git
 cd thunderx-tools/thunderx-tools-421/
 sh ./unpack.sh
 ```
